@@ -1,0 +1,35 @@
+Trabajo práctico 1
+Ejercicio 1
+Escribe una función en Python que procese una lista de cadenas de texto y realice las siguientes acciones:
+
+La función debe tomar una lista de frases y convertir cada frase en una lista de palabras.
+Luego, debe crear una nueva lista que contenga la cantidad de palabras en cada frase.
+Finalmente, la función debe imprimir cada frase original junto con la cantidad de palabras que contiene. Ejemplo de uso:
+frases = [
+        "Python es un lenguaje de programación",
+        "Me gusta resolver problemas con código",
+        "Las listas y los bucles son muy útiles"
+    ]
+
+    procesar_frases(frases)
+Requisitos: La función debe utilizar un bucle for para iterar sobre la lista de frases y contar las palabras en cada una. Debe crear y devolver una nueva lista con los conteos de palabras, y luego imprimir el resultado de forma clara.
+
+
+# Implementar
+     
+Ejercicio 2
+Escribe una función en Python que encuentre los valores de a, b, y c para que la función cuadrática f(x) = a x^2 + b x + c pase exactamente por los siguientes puntos:
+
+x	y
+0	0
+1	8
+2	12
+3	12
+5	0
+Requisitos:
+La función debe explorar posibles valores de a, b, y c utilizando un método de prueba y error.
+Debe devolver los valores que hagan que la diferencia entre la función f(x) y los valores medidos y sea exactamente cero para cada punto.
+Pista: Los valores de a, b, y c son números pequeños.
+
+
+# Implementar
